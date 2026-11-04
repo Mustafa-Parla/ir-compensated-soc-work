@@ -1,0 +1,19 @@
+[
+ {
+  "parameters": 238275,
+  "size_MB": 0.970956,
+  "MAC_per_window": 79942464,
+  "GPU_ms_median": 3.3013499979,
+  "GPU_ms_p95": 6.7116499999,
+  "GPU_inference_memory_MB": 33.398784,
+  "CPU_ms_median": 58.3624999999,
+  "CPU_ms_p95": 65.94472,
+  "CPU_threads": 10,
+  "model": "Proposed-S (h=64)",
+  "W (s)": 256,
+  "mean training time (min)": 32.3520992859,
+  "mean epoch time (s)": 28.2005263652,
+  "training GPU memory peak (GB)": 1.4446713856,
+  "preprocessing (ms per sample)": 0.0009962166
+ }
+]

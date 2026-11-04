@@ -1,0 +1,11 @@
+{
+ "python": "3.11.17",
+ "os": "Windows-10-10.0.26200-SP0",
+ "torch": "2.5.1+cu121",
+ "cuda": "12.1",
+ "cudnn": 90100,
+ "gpu": "NVIDIA GeForce RTX 3090",
+ "cpu": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+ "numpy": "2.4.6",
+ "pandas": "3.1.0"
+}

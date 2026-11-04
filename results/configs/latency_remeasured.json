@@ -1,0 +1,93 @@
+[
+ {
+  "model": "Proposed (IR-compensated hybrid)",
+  "GPU_ms_median": 1.4903999981,
+  "GPU_ms_p95": 2.0300149965,
+  "CPU_ms_median": 69.6614999979,
+  "CPU_ms_p95": 71.6420699988,
+  "CPU1_ms_median": 17.3510999994,
+  "CPU1_ms_p95": 18.5335400012,
+  "between-round spread, CPU (%)": 4.6399374132,
+  "parameters": 902403,
+  "MAC_per_window": 268936000,
+  "CPU_threads": 10
+ },
+ {
+  "model": "Proposed-S (h=64)",
+  "GPU_ms_median": 1.4248999978,
+  "GPU_ms_p95": 2.3051550004,
+  "CPU_ms_median": 13.7985000001,
+  "CPU_ms_p95": 14.4619700026,
+  "CPU1_ms_median": 13.5950999975,
+  "CPU1_ms_p95": 15.0648100007,
+  "between-round spread, CPU (%)": 5.736493117,
+  "parameters": 238275,
+  "MAC_per_window": 79942464,
+  "CPU_threads": 10
+ },
+ {
+  "model": "Hybrid (GRU→Transformer)",
+  "GPU_ms_median": 1.1360499993,
+  "GPU_ms_p95": 3.0259199961,
+  "CPU_ms_median": 13.3678999955,
+  "CPU_ms_p95": 13.7898399993,
+  "CPU1_ms_median": 12.9538500005,
+  "CPU1_ms_p95": 13.8757999983,
+  "between-round spread, CPU (%)": 8.2249268884,
+  "parameters": 238081,
+  "MAC_per_window": 79892544,
+  "CPU_threads": 10
+ },
+ {
+  "model": "LSTM",
+  "GPU_ms_median": 1.4171500006,
+  "GPU_ms_p95": 1.6743649983,
+  "CPU_ms_median": 14.6038000021,
+  "CPU_ms_p95": 16.3604199995,
+  "CPU1_ms_median": 2.6749999997,
+  "CPU1_ms_p95": 3.3745199984,
+  "between-round spread, CPU (%)": 7.5511168095,
+  "parameters": 209025,
+  "MAC_per_window": 50864192,
+  "CPU_threads": 10
+ },
+ {
+  "model": "GRU",
+  "GPU_ms_median": 0.9227499977,
+  "GPU_ms_p95": 1.1284549979,
+  "CPU_ms_median": 63.5033500002,
+  "CPU_ms_p95": 65.7141999949,
+  "CPU1_ms_median": 12.0373999998,
+  "CPU1_ms_p95": 12.9768649986,
+  "between-round spread, CPU (%)": 16.6896707038,
+  "parameters": 257921,
+  "MAC_per_window": 63316032,
+  "CPU_threads": 10
+ },
+ {
+  "model": "CNN-LSTM",
+  "GPU_ms_median": 0.7378500013,
+  "GPU_ms_p95": 2.3032349989,
+  "CPU_ms_median": 14.1493499978,
+  "CPU_ms_p95": 15.1185550047,
+  "CPU1_ms_median": 1.066249999,
+  "CPU1_ms_p95": 1.8051150033,
+  "between-round spread, CPU (%)": 3.2545664352,
+  "parameters": 66113,
+  "MAC_per_window": 15568960,
+  "CPU_threads": 10
+ },
+ {
+  "model": "Transformer",
+  "GPU_ms_median": 1.276250001,
+  "GPU_ms_p95": 2.5563900024,
+  "CPU_ms_median": 4.0930499999,
+  "CPU_ms_p95": 4.7738999965,
+  "CPU1_ms_median": 7.6331500022,
+  "CPU1_ms_p95": 8.5825450045,
+  "between-round spread, CPU (%)": 9.5478921558,
+  "parameters": 636545,
+  "MAC_per_window": 201465920,
+  "CPU_threads": 10
+ }
+]

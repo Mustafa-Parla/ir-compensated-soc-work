@@ -1,0 +1,83 @@
+{
+ "RC-hybrid, no current input (former candidate)": {
+  "family": "rc",
+  "params": {
+   "hidden": 128,
+   "gru_layers": 3,
+   "d_model": 128,
+   "nhead": 4,
+   "trans_layers": 3,
+   "dropout": 0.1
+  },
+  "rc": {
+   "taus": [
+    3,
+    7,
+    12
+   ],
+   "ohm_smooth": 3,
+   "use_T": true,
+   "det": false,
+   "mod_max": 0.3
+  },
+  "lr": 0.0004,
+  "window": 256
+ },
+ "Hybrid (GRU→Transformer)": {
+  "family": "hyb",
+  "params": {
+   "hidden": 64,
+   "gru_layers": 3,
+   "d_model": 64,
+   "nhead": 4,
+   "trans_layers": 3,
+   "dropout": 0.2
+  },
+  "lr": 0.0008,
+  "window": 256
+ },
+ "LSTM": {
+  "family": "lstm",
+  "params": {
+   "hidden": 128,
+   "layers": 2,
+   "dropout": 0.1
+  },
+  "lr": 0.0008,
+  "window": 256
+ },
+ "GRU": {
+  "family": "gru",
+  "params": {
+   "hidden": 128,
+   "layers": 3,
+   "dropout": 0.1
+  },
+  "lr": 0.0008,
+  "window": 256
+ },
+ "CNN-LSTM": {
+  "family": "cnn_lstm",
+  "params": {
+   "conv_ch": 32,
+   "kernel": 3,
+   "conv_layers": 2,
+   "hidden": 64,
+   "layers": 2,
+   "dropout": 0.1
+  },
+  "lr": 0.0008,
+  "window": 256
+ },
+ "Transformer": {
+  "family": "transformer",
+  "params": {
+   "d_model": 128,
+   "nhead": 4,
+   "layers": 3,
+   "dropout": 0.1
+  },
+  "lr": 0.0008,
+  "window": 256
+ }
+}

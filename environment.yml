@@ -1,0 +1,24 @@
+# Kurulum (Anaconda Prompt):
+#   cd C:\Makale2
+#   conda env create -f environment.yml
+#   conda activate makale2
+#   python -m ipykernel install --user --name makale2 --display-name "Python (makale2)"
+# Jupyter'de çekirdek olarak "Python (makale2)" seçin.
+name: makale2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - pandas
+  - scipy
+  - matplotlib
+  - openpyxl
+  - pyarrow
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu121
+      - torch==2.3.1
+      - mat73
